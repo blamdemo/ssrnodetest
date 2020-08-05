@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MyNewComponent
+  description: Test New Compponent
+  annotations:
+    github.com/project-slug: blamdemo/ssrnodetest
+    backstage.io/github-actions-id: blamdemo/ssrnodetest
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guest
